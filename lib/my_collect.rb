@@ -1,7 +1,7 @@
 def my_collect(array)
   a = 0
   collection = []
-   while a < array.length
+   array.each do |e|
     collection << yield(array[a])
   a += 1
 end
