@@ -4,4 +4,5 @@ def my_collect(array)
    while a < array.length
   a += 1
 end
+array
 end
