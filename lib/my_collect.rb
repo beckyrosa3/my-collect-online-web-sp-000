@@ -6,3 +6,5 @@ def my_collect(array)
 end
 array
 end
+
+my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) { |word| "#{word}" }
