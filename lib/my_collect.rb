@@ -2,7 +2,7 @@ def my_collect(array)
   a = 0
   collection = []
    array.each do |e|
-    collection << yield(array[a])
+    yield(e)
   a += 1
 end
 array
