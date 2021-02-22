@@ -8,4 +8,4 @@ end
 array
 end
 
-my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]).map { |word| "#{word}" }
+my_collect.map(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) { |word| "#{word}" }
