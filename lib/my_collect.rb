@@ -5,7 +5,7 @@ def my_collect(array)
     collection << yield(array[a])
   a += 1
 end
-array
+array.map
 end
 
-my_collect.map(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) { |word| "#{word}" }
+my_collect(["Tim Jones", "Tom Smith", "Sophie Johnson", "Antoin Miller"]) { |word| "#{word}" }
